@@ -30,14 +30,6 @@ sense = SenseHat()
 sense.set_rotation(r=270)
 sense.set_pixels(sense_pixels)
 
-## For sensor testing
-# print("1. Tempurature: " + str(sense.temperature))
-# print("2. Humidity: " + str(sense.humidity))
-# print("3. Pressure: " + str(sense.pressure))
-# print("4. Accelerometer: " + str(sense.accelerometer))
-# print("5. Gyroscope: " + str(sense.gyroscope))
-# print("6. Orientation: " + str(sense.orientation))
-
 time.sleep(5)
 
 sense.clear()

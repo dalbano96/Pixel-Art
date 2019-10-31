@@ -9,7 +9,7 @@ import os
 
 # Open image file
 filename = "mario.png"
-image_file = os.path.join(os.sep,"images",filename)
+image_file = os.path.join("images", filename)
 img = Image.open(image_file)
 
 # Generate rgb values for image pixels
@@ -17,7 +17,7 @@ rgb_img = img.convert('RGB')
 image_pixels = list(rgb_img.getdata())
 
 # Get the 64 pixels you need
-pixel_width = 1   # Total number of pixels (orig image) divided by 8
+pixel_width = 6   # Total number of pixels (orig image) divided by 8
 image_width = pixel_width * 8
 sense_pixels = []
 start_pixel = 0

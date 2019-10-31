@@ -9,7 +9,7 @@ import os
 
 # Open image file
 filename = "mario.png"
-image_file = os.path.join(os.sep,"/home","pi","SenseHAT",filename)
+image_file = os.path.join(os.sep,"images",filename)
 img = Image.open(image_file)
 
 # Generate rgb values for image pixels

@@ -11,9 +11,9 @@ Open `pixel_art.py` in a Python IDE, such as Thonny. Test SenseHAT LEDs by runni
 ![](ref/mario-test.jpg)
 
 ## Changing Characters
-To display another character on the SenseHAT, navigate to line 12 on `pixel_art.py`. Change `"mario.png"` to another filename*.
+To display another character on the SenseHAT, navigate to line 12 on `pixel_art.py`. Change `"mario.png"` to another *filename**, such as `luigi.png` or `homer.png`.
 
-  **The list of compatible filenames are located in the `images` folder*
+**Compatible filenames are located in the `images` folder.*
 
 Here are all of the compatible characters you can display on the SenseHAT.
 

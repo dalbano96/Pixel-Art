@@ -28,6 +28,8 @@ while start_pixel < (image_width * 64):
     start_pixel += (image_width * pixel_width)
 
 sense = SenseHat()
+# Rotate the image by changing the value '0' to '90', '180', or '270'
+sense.set_rotation(r=0)
 sense.set_pixels(sense_pixels)
 
 time.sleep(5)

@@ -21,5 +21,7 @@ Here are all of the compatible characters you can display on the SenseHAT.
 
 ## Rotating the Image
 You can also rotate the image by changing the value on line 32.
-```python sense.set_rotation(r=0)```
+```python
+sense.set_rotation(r=0)
+```
 Acceptable rotation values include '0', '90', '180', and '270'. Other rotation values will not be accepted.

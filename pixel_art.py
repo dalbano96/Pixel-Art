@@ -28,9 +28,7 @@ while start_pixel < (image_width * 64):
     start_pixel += (image_width * pixel_width)
 
 sense = SenseHat()
-sense.set_rotation(r=270)
 sense.set_pixels(sense_pixels)
 
 time.sleep(5)
-
 sense.clear()

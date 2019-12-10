@@ -4,7 +4,7 @@
 # Clears SenseHAT LEDs
 from sense_hat import SenseHat
 
-def clear_pixelArt:
+def clear_pixelArt():
     sense = SenseHat()
     sense.set_rotation(r=0)
     sense.clear()
